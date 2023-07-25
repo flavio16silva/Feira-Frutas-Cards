@@ -34,13 +34,13 @@ header h1{
 
 main{
   border-style: dotted;
-  width:80%;
+  width:85%;
   height: 100%;
-  display: flex;
+  display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content:center;
+  justify-content:end;
   align-items: center;
 }
 
