@@ -34,14 +34,16 @@ header h1{
 
 main{
   border-style: dotted;
-  width:85%;
+  width:80%;
   height: 100%;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content:end;
+  justify-content:center;
   align-items: center;
+  margin: auto;
+  
 }
 
 /*Container Geral*/
