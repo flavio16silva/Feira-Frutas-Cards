@@ -20,7 +20,7 @@
         <section>
           <h1>Morango</h1>
           <h2>Fruta Vermelha</h2>
-          <span>R$ 5,50</span>
+          <span>R$ 5,00</span>
           <button>Saiba mais</button>
         </section>
       </section>
@@ -30,7 +30,7 @@
         <section>
           <h1>Abacaxi</h1>
           <h2>Fruta Tropical</h2>
-          <span>R$ 5,50</span>
+          <span>R$ 7,00</span>
           <button>Saiba mais</button>
         </section>
 
@@ -40,7 +40,7 @@
         <section>
           <h1>Maça</h1>
           <h2>Fruta Tropical</h2>
-          <span>R$ 5,50</span>
+          <span>R$ 3,00</span>
           <button>Saiba mais</button>
         </section>
 
@@ -50,7 +50,7 @@
         <section>
           <h1>Uva</h1>
           <h2>Fruta Silvestre</h2>
-          <span>R$ 5,50</span>
+          <span>R$ 5,00</span>
           <button>Saiba mais</button>
         </section>
       </section>
@@ -60,7 +60,7 @@
         <section>
           <h1>Melancia</h1>
           <h2>Fruta Tropical</h2>
-          <span>R$ 5,50</span>
+          <span>R$ 8,00</span>
           <button>Saiba mais</button>
         </section>
 
@@ -70,7 +70,7 @@
         <section>
           <h1>Tangerina</h1>
           <h2>Fruta Citrica</h2>
-          <span>R$ 5,50</span>
+          <span>R$ 7,00</span>
           <button>Saiba mais</button>
         </section>
       </section>
@@ -81,7 +81,7 @@
       <section>
         <h1>Banana</h1>
         <h2>Fruta Tropical</h2>
-        <span>R$ 5,50</span>
+        <span>R$ 10,00</span>
         <button>Saiba mais</button>
       </section>
     </section>
@@ -92,7 +92,7 @@
     <section>
       <h1>Pêssego</h1>
       <h2>Fruta das Rosaceas</h2>
-      <span>R$ 5,50</span>
+      <span>R$ 7,00</span>
       <button>Saiba mais</button>
     </section>
   </section>
@@ -103,7 +103,7 @@
   <section>
     <h1>Pera</h1>
     <h2>Fruta das Rosaceas</h2>
-    <span>R$ 5,50</span>
+    <span>R$ 3,00</span>
     <button>Saiba mais</button>
   </section>
 </section>
@@ -114,7 +114,7 @@
   <section>
     <h1>Melão</h1>
     <h2>Fruta Tropical</h2>
-    <span>R$ 5,50</span>
+    <span>R$ 6,00</span>
     <button>Saiba mais</button>
   </section>
 </section>
@@ -125,7 +125,7 @@
   <section>
     <h1>Ameixa</h1>
     <h2>Fruta das Rosaceas</h2>
-    <span>R$ 5,50</span>
+    <span>R$ 2,00</span>
     <button>Saiba mais</button>
   </section>
 </section>
@@ -136,7 +136,7 @@
   <section>
     <h1>Mamão</h1>
     <h2>Fruta Tropical</h2>
-    <span>R$ 5,50</span>
+    <span>R$ 6,00</span>
     <button>Saiba mais</button>
   </section>
 </section>
@@ -145,16 +145,54 @@
     </main>
 
     <footer>
+    <select name="frutas" id="ifrutas">
+      <option value="fruta">Selecione sua fruta</option>
+      <option value="morango">Morango</option>
+      <option value="abacaxi">Abacaxi</option>
+      <option value="maça">Maça</option>
+      <option value="uva">Uva</option>
+      <option value="melancia">Melancia</option>
+      <option value="tangerina">Tangerina</option>
+      <option value="banana">Banana</option> 
+      <option value="pessego">Pêssego</option>
+      <option value="pera">Pera</option>     
+      <option value="melão">Melão</option>
+      <option value="ameixa">Ameixa</option>   
+      <option value="mamão">Mamão</option>           
+    </select>
+
+    <!--Local onde irá aparecer o preço da fruta-->
+    <input type="text" name="res" id="ires1" placeholder="Preço Aqui">
+    <!--Quantidade01-->
+    <input type="number" name="valor" id="iqtd4" placeholder="Quantidade de Fruta1"> 
+    
+    
+
+    <select name="frutas" id="ifrutas">
+      <option value="fruta">Selecione sua fruta</option>
+      <option value="morango">Morango</option>
+      <option value="abacaxi">Abacaxi</option>
+      <option value="maça">Maça</option>
+      <option value="uva">Uva</option>
+      <option value="melancia">Melancia</option>
+      <option value="tangerina">Tangerina</option>
+      <option value="banana">Banana</option> 
+      <option value="pessego">Pêssego</option>
+      <option value="pera">Pera</option>     
+      <option value="melão">Melão</option>
+      <option value="ameixa">Ameixa</option>   
+      <option value="mamão">Mamão</option>           
+    </select>
       
-      <input type="text" name="valor" id="ivalor1"> <!--Fruta01-->
-      <input type="text" name="valor" id="ivalor2"> <!--Fruta02-->
-      <input type="text" name="valor" id="iqtd3"> <!--Quantidade01-->
-      <input type="text" name="valor" id="iqtd4"> <!--Quantidade02-->
-
-      <input type="text" name="res" id="ires1">
-      <input type="text" name="res" id="ires2">
-
-      <input type="button" id="ibtn" value="Calcular">
+       
+     <!--Local onde irá aparecer o preço da fruta-->
+    <input type="text" name="res" id="ires1" placeholder="Preço Aqui">
+     <!--Quantidade02-->
+    <input type="number" name="valor" id="iqtd4" placeholder="Quantidade de Fruta2"> 
+     
+      
+      <!-- <input type="button" id="icontar" value="Contador"> -->
+      <input type="button" id="icalcular" value="Calcular">
     </footer>
   </body>
 </html>

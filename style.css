@@ -122,7 +122,7 @@ footer {
   
 }
 
-footer #ivalor1, #ivalor2, #iqtd3, #iqtd4, #ires1, #ires2{
+footer #ifrutas, #iqtd3, #iqtd4, #ires1, #ires2, #icalcular, #icontar{
   text-align: center;
   border-radius: 3px;
   box-shadow:.5px.5px rgba(0, 0, 0,.6);
@@ -130,13 +130,21 @@ footer #ivalor1, #ivalor2, #iqtd3, #iqtd4, #ires1, #ires2{
   cursor: pointer;
 }
 
-footer #ibtn {
-    grid-column-start: 2;
+footer #icalcular {
+    grid-column-start:2;
   /* display:flex; */
   /* position: absolute; */
   /* right: 30%; */  
   /* align-self:flex-end; */ 
+}
 
+/* Botão Calcular e Contar */
+#icalcular {
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 
