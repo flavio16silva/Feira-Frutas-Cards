@@ -21,13 +21,13 @@ header {
   justify-content: center;
   align-items: center;
   border-style: dotted;
-   
+     
 }
 
 header h1{
   color:#3c75b9;
   text-align:center;
-  margin: 15px;
+  margin: 10px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.111);
   text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ main{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   justify-content:center;
   align-items: center;
   margin: auto;
@@ -53,6 +53,7 @@ main{
   height: 260px;
   border-radius: 12px;
   box-shadow: 4px 4px 12px #aaaa;
+  
 }
 
 /*imagem dos cards*/
@@ -63,13 +64,15 @@ main{
   border-top-right-radius:12px;
 }
 
+/*Preço dos cards*/
 .card section{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3px;
+  /* gap: 2px; */
   height: 50%;
+  
 }
 
 /*Titulo - Nome da Fruta*/
@@ -102,4 +105,38 @@ main{
   border-radius: 4px;
   cursor: pointer;
 }
+
+footer {
+  border-style: dotted;
+  display:grid;
+  grid-template-columns:repeat(3, 10%);
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  /* align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 10px; */
+  
+}
+
+footer #ivalor1, #ivalor2, #iqtd3, #iqtd4, #ires1, #ires2{
+  text-align: center;
+  border-radius: 3px;
+  box-shadow:.5px.5px rgba(0, 0, 0,.6);
+  padding: 3px;
+  cursor: pointer;
+}
+
+footer #ibtn {
+    grid-column-start: 2;
+  /* display:flex; */
+  /* position: absolute; */
+  /* right: 30%; */  
+  /* align-self:flex-end; */ 
+
+}
+
 
