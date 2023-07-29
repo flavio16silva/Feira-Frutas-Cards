@@ -55,6 +55,11 @@ main{
   box-shadow: 4px 4px 12px #aaaa;
   
 }
+/* Cartoes das Frutas */
+.card:hover {
+  transform: scale(1.1);
+
+}
 
 /*imagem dos cards*/
 .card img {
@@ -75,6 +80,7 @@ main{
   
 }
 
+
 /*Titulo - Nome da Fruta*/
 .card h1 {
   font-size: .9rem;
@@ -92,7 +98,12 @@ main{
 
 }
 
-/*Botão*/
+/* Preços das Frutas */
+span {
+  font-weight: bolder;  
+}
+
+/*Botão: Saiba Mais*/
 .card button {
   background-color: #2192FF;
   height: 30px;
@@ -106,6 +117,11 @@ main{
   cursor: pointer;
 }
 
+.card button:hover {
+  transform: scale(1.1);
+}
+
+/* Selecionar as Frutas, Preços e Botões */
 footer {
   border-style: dotted;
   display:grid;
@@ -130,21 +146,18 @@ footer #ifrutas, #iqtd3, #iqtd4, #ires1, #ires2, #icalcular, #icontar{
   cursor: pointer;
 }
 
-footer #icalcular {
-    grid-column-start:2;
-  /* display:flex; */
-  /* position: absolute; */
-  /* right: 30%; */  
-  /* align-self:flex-end; */ 
-}
-
-/* Botão Calcular e Contar */
+/* Botão Calcular*/
 #icalcular {
+  grid-column-start:2;
   padding: 10px;
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: bolder;
   cursor: pointer;
+  /* display:flex; */
+  /* position: absolute; */
+  /* right: 30%; */  
+  /* align-self:flex-end; */ 
 }
 
 
