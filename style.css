@@ -125,7 +125,7 @@ span {
 footer {
   border-style: dotted;
   display:grid;
-  grid-template-columns:repeat(3, 10%);
+  grid-template-columns:repeat(4, 10%);
   justify-content: center;
   align-content: center;
   gap: 10px;

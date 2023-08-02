@@ -149,7 +149,7 @@
     <select name="frutas" id="ifrutas1" onchange="Calcular()">
       <option value="">Selecione sua fruta</option>
       <option value="6">Morango</option>
-      <option value="7,00">Abacaxi</option>
+      <option value="7.00">Abacaxi</option>
       <option value="maça">Maça</option>
       <option value="uva">Uva</option>
       <option value="melancia">Melancia</option>
@@ -162,10 +162,19 @@
       <option value="mamão">Mamão</option>           
     </select>
 
+   
+
     <!--Local onde irá aparecer o preço da fruta-->
     <input type="text" name="res" id="ires1" placeholder="Preço Aqui">
+
+   
     <!--Quantidade01-->
     <input type="number" name="valor" id="iqtd4" placeholder="Quantidade de Fruta1"> 
+
+       <!-- Input para exibir o valor calculado -->
+       <input type="text" id="ires3" readonly>
+
+   
     
     
 
@@ -190,10 +199,14 @@
     <input type="text" name="res" id="ires2" placeholder="Preço Aqui">
      <!--Quantidade02-->
     <input type="number" name="valor" id="iqtd4" placeholder="Quantidade de Fruta2"> 
+
+      <!-- Input para exibir o valor calculado -->
+      <input type="text" id="ires4" readonly>
      
       
       <!-- <input type="button" id="icontar" value="Contador"> -->
-      <input type="button" id="icalcular" value="Calcular">
+      <!-- <input type="button" id="icalcular" value="Calcular"> -->
+      <button onclick = "Calcular()">Calcular</button>
     </footer>
 
     <script src="fruta.js"></script>
