@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cards de Estudos</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="fruta.js"></script>
+   
   </head>
   <body>
 
@@ -146,10 +146,10 @@
     </main>
 
     <footer>
-    <select name="frutas" id="ifrutas">
-      <option value="fruta">Selecione sua fruta</option>
-      <option value="morango">Morango</option>
-      <option value="abacaxi">Abacaxi</option>
+    <select name="frutas" id="ifrutas1" onchange="Calcular()">
+      <option value="">Selecione sua fruta</option>
+      <option value="6">Morango</option>
+      <option value="7,00">Abacaxi</option>
       <option value="maça">Maça</option>
       <option value="uva">Uva</option>
       <option value="melancia">Melancia</option>
@@ -169,7 +169,7 @@
     
     
 
-    <select name="frutas" id="ifrutas">
+    <select name="frutas" id="ifrutas2">
       <option value="fruta">Selecione sua fruta</option>
       <option value="morango">Morango</option>
       <option value="abacaxi">Abacaxi</option>
@@ -187,7 +187,7 @@
       
        
      <!--Local onde irá aparecer o preço da fruta-->
-    <input type="text" name="res" id="ires1" placeholder="Preço Aqui">
+    <input type="text" name="res" id="ires2" placeholder="Preço Aqui">
      <!--Quantidade02-->
     <input type="number" name="valor" id="iqtd4" placeholder="Quantidade de Fruta2"> 
      
@@ -195,5 +195,7 @@
       <!-- <input type="button" id="icontar" value="Contador"> -->
       <input type="button" id="icalcular" value="Calcular">
     </footer>
+
+    <script src="fruta.js"></script>
   </body>
 </html>
