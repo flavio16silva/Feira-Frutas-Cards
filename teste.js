@@ -20,7 +20,7 @@ function Calcular() {
   let precoValue = parseFloat(selectedValue); // Converter para número
 
   let total = precoValue * valorInput
-  console.log(total)
+  //console.log(total)
 
   //Exibe o valor calculado no input de resultado
   let resultadoInput = document.getElementById('ires3')
