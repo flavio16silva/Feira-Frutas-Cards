@@ -21,7 +21,7 @@
         <section>
           <h1>Morango</h1>
           <h2>Fruta Vermelha</h2>
-          <span class="fruta-preco" data-preco="5.00">R$ 5,00</span>
+          <span class="fruta-preco" data-fruta="morango" data-preco="5.00">R$ 5,00</span>
           <button>Saiba mais</button>
         </section>
       </section>
@@ -31,7 +31,7 @@
         <section>
           <h1>Abacaxi</h1>
           <h2>Fruta Tropical</h2>
-          <span class="fruta-preco" data-preco="7.00">R$ 7,00</span>
+          <span class="fruta-preco" data-fruta="abacaxi" data-preco="7.00">R$ 7,00</span>
           <button>Saiba mais</button>
         </section>
 
@@ -41,19 +41,20 @@
         <section>
           <h1>Maça</h1>
           <h2>Fruta Tropical</h2>
-          <span class="fruta-preco" data-preco="3.00">R$ 3,00</span>
+          <span class="fruta-preco" data-fruta="maça" data-preco="3.00">R$ 3,00</span>
           <button>Saiba mais</button>
         </section>
 
-    
+
     </main>
 
     <footer>
-    <select name="frutas" id="ifrutas1">
+    <select name="frutas" id="ifrutas1" onchange="atualizarPreco()">
       <option value="">Selecione sua fruta</option>
-      <option value="5,00">Morango</option>
-      <option value="7,00">Abacaxi</option>
-      <option value="3,00">Maça</option>
+      <option value="morango">Morango</option>
+      <option value="abacaxi">Abacaxi</option>
+      <option value="maça">Maça</option>
+        
     </select>
 
    
@@ -71,9 +72,9 @@
      
       
     
-      <button onclick="Calcular()">Calcular</button>
+      <button onclick="calcular()">Calcular</button>
     </footer>
 
-    <script src="fruta.js"></script>
+    <script src="novo.js"></script>
   </body>
 </html>
