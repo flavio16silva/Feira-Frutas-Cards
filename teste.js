@@ -18,10 +18,15 @@ function Calcular() {
 
    let total = precoValue * valorInput
 
-   //Exibe o valor calculado no input de resultado
-  let resultadoInput = document.getElementById('ires3')
-  resultadoInput.value = total
+     //Exibe o valor calculado no input de resultado
+  if (resultadoInput !== NaN ){
+    document.getElementById('ires3').value = total
+  } else {
+    resultadoInput.value = ""
+  }
+  
+  
    
 }
 
-Calcular()
+//Calcular()
