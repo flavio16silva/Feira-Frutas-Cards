@@ -26,11 +26,14 @@ function calcular() {
   if (!isNaN(precoInput) && !isNaN(quantidadeInput)) {
     let total = precoInput * quantidadeInput
     document.getElementById('ires3').value = `R$ ${total.toFixed(2)}` 
+    
+    alert(`SMS enviada ao Celular: Valor a pagar é: R$ ${total.toFixed(2)}`)
 
    } else {
     document.getElementById('ires3').value = ""
     alert('Por favor, preencher com as informações!')
    }
+   
 
  } else {
   document.getElementById('ires3').value = ""
@@ -38,6 +41,8 @@ function calcular() {
  }
 
 }
+
+
  
  
 

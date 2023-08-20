@@ -173,15 +173,6 @@ footer {
   cursor: pointer;
 }
 
-#ifrutas1 {
-  position: relative;
-}
-
-#ifrutas1 option {
-  position: absolute;
-  z-index: 1;
-}
-
 /* Botão Calcular */
 button {
   grid-column-start:2;
