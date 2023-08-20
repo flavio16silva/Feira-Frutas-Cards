@@ -29,12 +29,12 @@ function calcular() {
 
    } else {
     document.getElementById('ires3').value = ""
-    alert('Por favor, informe uma quantidade!')
+    alert('Por favor, preencher com as informações!')
    }
 
  } else {
   document.getElementById('ires3').value = ""
-  alert('Por favor, informe uma quantidade!')
+  alert('Por favor, preencher com as informações!')
  }
 
 }

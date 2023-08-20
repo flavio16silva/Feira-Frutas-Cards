@@ -9,15 +9,17 @@
   </head>
   <body>
 
-  <header>
-    <!-- Nome do Projeto -->
-    <h1>Feira Livre</h1>
-  </header>
+      <header>
+          <!-- Nome do Projeto -->
+          <h1 id="primeiro">Seja bem-vindo: Feira Livre!</h1>
+
+      </header>
 
  
 
-   <main>
+  <main>
     <!-- Sessão do card, onde contém as frutas, tipos, preços -->
+  
       <section class="card">
         <img src="images/morango.jpg" alt="" />
             <section>
@@ -108,56 +110,55 @@
           </section>
     </section>
 
-  </section>
-      <section class="card">
-        <img src="images/pera.jpg" alt="" />
-        <section>
-          <h1>Pera</h1>
-          <h2>Fruta Rosaceas</h2>
-          <span class="fruta-preco" data-fruta="pera" data-preco="3.85">R$ 3,85</span>
-          <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Pera">Saiba mais</a></button> 
-          <!-- <button>Saiba mais</button> -->
-        </section>
-  </section>
-
-  </section>
-      <section class="card">
-        <img src="images/melao.png" alt="" />
-        <section>
-          <h1>Melão</h1>
-          <h2>Fruta Cucurbitaceae</h2>
-          <span class="fruta-preco" data-fruta="melão" data-preco="7.40">R$ 7,40</span>
-          <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Melão">Saiba mais</a></button> 
-          <!-- <button>Saiba mais</button> -->
-        </section>
-  </section>
-
-  </section>
-      <section class="card">
-        <img src="images/ameixa.jpg" alt="" />
-        <section>
-          <h1>Ameixa</h1>
-          <h2>Fruta Rosaceas</h2>
-          <span class="fruta-preco" data-fruta="ameixa" data-preco="4.00">R$ 4,00</span>
-          <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Ameixa">Saiba mais</a></button> 
-          <!-- <button>Saiba mais</button> -->
-        </section>
-  </section>
-
-</section>
-    <section class="card">
-      <img src="images/mamao.jpg" alt="" />
-      <section>
-        <h1>Mamão</h1>
-        <h2>Fruta Caricaceae</h2>
-        <span class="fruta-preco" data-fruta="mamão" data-preco="6.80">R$ 6,80</span>
-        <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Mamão">Saiba mais</a></button> 
-        <!-- <button>Saiba mais</button> -->
       </section>
-</section>
+          <section class="card">
+            <img src="images/pera.jpg" alt="" />
+            <section>
+              <h1>Pera</h1>
+              <h2>Fruta Rosaceas</h2>
+              <span class="fruta-preco" data-fruta="pera" data-preco="3.85">R$ 3,85</span>
+              <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Pera">Saiba mais</a></button> 
+              <!-- <button>Saiba mais</button> -->
+            </section>
+      </section>
 
+      </section>
+          <section class="card">
+            <img src="images/melao.png" alt="" />
+            <section>
+              <h1>Melão</h1>
+              <h2>Fruta Cucurbitaceae</h2>
+              <span class="fruta-preco" data-fruta="melão" data-preco="7.40">R$ 7,40</span>
+              <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Melão">Saiba mais</a></button> 
+              <!-- <button>Saiba mais</button> -->
+            </section>
+      </section>
 
-    </main>
+      </section>
+          <section class="card">
+            <img src="images/ameixa.jpg" alt="" />
+            <section>
+              <h1>Ameixa</h1>
+              <h2>Fruta Rosaceas</h2>
+              <span class="fruta-preco" data-fruta="ameixa" data-preco="4.00">R$ 4,00</span>
+              <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Ameixa">Saiba mais</a></button> 
+              <!-- <button>Saiba mais</button> -->
+            </section>
+      </section>
+
+        </section>
+            <section class="card">
+              <img src="images/mamao.jpg" alt="" />
+              <section>
+                <h1>Mamão</h1>
+                <h2>Fruta Caricaceae</h2>
+                <span class="fruta-preco" data-fruta="mamão" data-preco="6.80">R$ 6,80</span>
+                <button type="button"><a target="_blank" href="https://pt.wikipedia.org/wiki/Mamão">Saiba mais</a></button> 
+                <!-- <button>Saiba mais</button> -->
+              </section>
+        </section>
+   
+</main>
 
     <footer>
 
@@ -182,16 +183,16 @@
 
    
 
-    <!--Local onde irá aparecer o preço da fruta-->
-    <input type="text" name="res" id="ires1" placeholder="Preço Aqui: ires1">
+    <!--Local onde irá aparecer o preço da fruta : ires1"-->
+    <input type="text" name="res" id="ires1" placeholder="Preço Aqui">
 
    
-    <!--Quantidade01-->
-    <input type="number" name="valor" id="iqtd4" placeholder="Qnt. Fruta1:iqtd4" min="0"> 
+    <!--Quantidade01 :iqtd4"-->
+    <input type="number" name="valor" id="iqtd4" placeholder="Qnt. Fruta" min="0"> 
 
        <!-- Input para exibir o valor calculado -->
-       <!-- readonly: sem edição do calculo final -->
-       <input type="text" id="ires3"  placeholder="Calculo Final - ires3" readonly>     
+       <!-- readonly: sem edição do calculo final - ires3 -->
+       <input type="text" id="ires3"  placeholder="Calculo Final" readonly>     
       
       <!-- Função para calculo Final, chamada no JS -->
       <button id="ibotao"  onclick="calcular()">Calcular</button>
