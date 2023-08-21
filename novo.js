@@ -5,8 +5,9 @@ function atualizarPreco() {
   if (spanElement) {
     let precoValue = parseFloat(spanElement.getAttribute('data-preco'))
     document.getElementById('ires1').value = `R$ ${precoValue.toFixed(2)}`
+    
   } else {
-    document.getElementById('ires1').value = "R$"
+    document.getElementById('ires1').value = "R$"    
     
   }
 }
@@ -29,6 +30,7 @@ function calcular() {
     document.getElementById('ires3').value = `R$ ${total.toFixed(2)}` //Duas casas decimais
     
     alert(`SMS enviada ao Celular: Valor a pagar é: R$ ${total.toFixed(2)}`)
+    tab.innerHTML = ``
 
    } else {
     document.getElementById('ires3').value = ""

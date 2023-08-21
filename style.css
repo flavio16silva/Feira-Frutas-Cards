@@ -75,11 +75,11 @@ main{
   overflow: hidden;
   object-fit: cover;
   transition: transform 0.4s ease-in-out;
-  transform-origin: center;
- 
-  
+  transform-origin: center; 
   
 }
+
+
 /* Ao passar o mouse nos cards */
 .card img:hover {
   transform: scale(1.1);
@@ -236,7 +236,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;          
+    justify-items: center;
+              
   }
 
   #ifrutas1{
@@ -245,12 +246,20 @@ button {
 
 }
 
-/* Para telas menores que 576px (smartphones) */
+/* Para telas menores que  */
 @media (max-width: 766px) {
   main {
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(2, 1fr);
     overflow: hidden;
+    justify-items:center; 
    
+  }
+
+  .card {
+    width: 80%;
+    height:auto;
+    
+    
   }
 
   footer {
@@ -266,6 +275,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     /* grid-template-columns: 1fr; */
     
   }
