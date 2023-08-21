@@ -22,10 +22,11 @@ function calcular() {
        
   //console.log(precoInput)
   //console.log(quantidadeInput)
-
+   
+  /* Verificando se são números válidos  */ 
   if (!isNaN(precoInput) && !isNaN(quantidadeInput)) {
     let total = precoInput * quantidadeInput
-    document.getElementById('ires3').value = `R$ ${total.toFixed(2)}` 
+    document.getElementById('ires3').value = `R$ ${total.toFixed(2)}` //Duas casas decimais
     
     alert(`SMS enviada ao Celular: Valor a pagar é: R$ ${total.toFixed(2)}`)
 
