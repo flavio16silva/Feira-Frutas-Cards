@@ -1,0 +1,3 @@
+- Aprendendo uso de tags do HTML, alinhamento na tela, funções com JS
+- Uso de links de pesquisa;
+- Trabalhando dinamismo com Js e os botões da pagina
